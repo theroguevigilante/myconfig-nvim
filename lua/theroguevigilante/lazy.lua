@@ -84,6 +84,7 @@ local plugins = {
             fuzzy = { implementation = "prefer_rust_with_warning" }
         },
         opts_extend = { "sources.default" }
-    } 
+    },
+    'github/copilot.vim',
 }
 require("lazy").setup(plugins, {})
