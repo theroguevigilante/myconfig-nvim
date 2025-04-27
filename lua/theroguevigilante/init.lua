@@ -1,6 +1,6 @@
 require("theroguevigilante.set")
 require("theroguevigilante.remaps")
-require("theroguevigilante.packer")
+require("theroguevigilante.lazy")
 require("theroguevigilante.diagnostics")
 vim.lsp.enable('luals') -- enabling esp for lua
 vim.lsp.enable('pyright') -- enabling esp for python
