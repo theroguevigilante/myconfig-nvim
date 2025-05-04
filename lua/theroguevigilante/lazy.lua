@@ -85,5 +85,17 @@ local plugins = {
         opts_extend = { "sources.default" }
     },
     'github/copilot.vim',
+    {
+        'numToStr/Comment.nvim',
+        opts = {
+            -- add any options here
+        }
+    },
+    {
+        "catgoose/nvim-colorizer.lua",
+        event = "BufReadPre",
+        opts = { -- set to setup table
+        },
+    }
 }
 require("lazy").setup(plugins, {})
